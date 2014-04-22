@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B01EFCB41777EDB700D1CEF2 /* GASSNotepadView.m in Sources */ = {isa = PBXBuildFile; fileRef = B01EFCB31777EDB700D1CEF2 /* GASSNotepadView.m */; };
+		B0727E661777E05900A97287 /* GASSNotepadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0727E641777E05900A97287 /* GASSNotepadViewController.m */; };
+		B0727E671777E05900A97287 /* GASSNotepadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0727E651777E05900A97287 /* GASSNotepadViewController.xib */; };
+		B0AB56821908B8C60065E44A /* ZZFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AB56811908B8C60065E44A /* ZZFile.m */; };
+		B0DEC7751777D5AC00AD8709 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DEC7741777D5AC00AD8709 /* UIKit.framework */; };
+		B0DEC7771777D5AC00AD8709 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DEC7761777D5AC00AD8709 /* Foundation.framework */; };
+		B0DEC7791777D5AC00AD8709 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DEC7781777D5AC00AD8709 /* CoreGraphics.framework */; };
+		B0DEC77F1777D5AC00AD8709 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0DEC77D1777D5AC00AD8709 /* InfoPlist.strings */; };
+		B0DEC7811777D5AC00AD8709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DEC7801777D5AC00AD8709 /* main.m */; };
+		B0DEC7851777D5AC00AD8709 /* GASSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DEC7841777D5AC00AD8709 /* GASSAppDelegate.m */; };
+		B0DEC7871777D5AC00AD8709 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEC7861777D5AC00AD8709 /* Default.png */; };
+		B0DEC7891777D5AC00AD8709 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEC7881777D5AC00AD8709 /* Default@2x.png */; };
+		B0DEC78B1777D5AC00AD8709 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0DEC78A1777D5AC00AD8709 /* Default-568h@2x.png */; };
+		B0EA23351779363E001BA93E /* GASSDrawTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EA23341779363E001BA93E /* GASSDrawTools.m */; };
+		B0EA23381779674B001BA93E /* GASSCalloutViewPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EA23371779674B001BA93E /* GASSCalloutViewPanel.m */; };
+		B0EA233A177967C1001BA93E /* e.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0EA2339177967C1001BA93E /* e.jpg */; };
+		B0EA233C177967D2001BA93E /* calloutBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA233B177967D2001BA93E /* calloutBackground.png */; };
+		B0EA233E177972D3001BA93E /* calloutBackground02.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA233D177972D2001BA93E /* calloutBackground02.png */; };
+		B0EA23411779751F001BA93E /* GASSCalloutViewPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0EA23401779751F001BA93E /* GASSCalloutViewPanelController.m */; };
+		B0EA23431779774C001BA93E /* GASSCalloutViewPanelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23421779774C001BA93E /* GASSCalloutViewPanelController.xib */; };
+		B0EA234B17798190001BA93E /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23441779818B001BA93E /* eraser.png */; };
+		B0EA234C17798190001BA93E /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23451779818C001BA93E /* blue.png */; };
+		B0EA234D17798190001BA93E /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23461779818C001BA93E /* clear.png */; };
+		B0EA234E17798190001BA93E /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23471779818D001BA93E /* green.png */; };
+		B0EA234F17798190001BA93E /* pink.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23481779818E001BA93E /* pink.png */; };
+		B0EA235017798190001BA93E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA23491779818F001BA93E /* red.png */; };
+		B0EA235117798190001BA93E /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = B0EA234A1779818F001BA93E /* yellow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B01EFCB21777EDB700D1CEF2 /* GASSNotepadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSNotepadView.h; sourceTree = "<group>"; };
+		B01EFCB31777EDB700D1CEF2 /* GASSNotepadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSNotepadView.m; sourceTree = "<group>"; };
+		B0727E631777E05900A97287 /* GASSNotepadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSNotepadViewController.h; sourceTree = "<group>"; };
+		B0727E641777E05900A97287 /* GASSNotepadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSNotepadViewController.m; sourceTree = "<group>"; };
+		B0727E651777E05900A97287 /* GASSNotepadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GASSNotepadViewController.xib; sourceTree = "<group>"; };
+		B0AB56801908B8C60065E44A /* ZZFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFile.h; sourceTree = "<group>"; };
+		B0AB56811908B8C60065E44A /* ZZFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFile.m; sourceTree = "<group>"; };
+		B0DEC7711777D5AC00AD8709 /* GASSNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GASSNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0DEC7741777D5AC00AD8709 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0DEC7761777D5AC00AD8709 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0DEC7781777D5AC00AD8709 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0DEC77C1777D5AC00AD8709 /* GASSNotepad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GASSNotepad-Info.plist"; sourceTree = "<group>"; };
+		B0DEC77E1777D5AC00AD8709 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0DEC7801777D5AC00AD8709 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0DEC7821777D5AC00AD8709 /* GASSNotepad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GASSNotepad-Prefix.pch"; sourceTree = "<group>"; };
+		B0DEC7831777D5AC00AD8709 /* GASSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GASSAppDelegate.h; sourceTree = "<group>"; };
+		B0DEC7841777D5AC00AD8709 /* GASSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GASSAppDelegate.m; sourceTree = "<group>"; };
+		B0DEC7861777D5AC00AD8709 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0DEC7881777D5AC00AD8709 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0DEC78A1777D5AC00AD8709 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0E15306177ABB970089FC0F /* GASSConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GASSConstants.h; sourceTree = "<group>"; };
+		B0EA23331779363E001BA93E /* GASSDrawTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSDrawTools.h; sourceTree = "<group>"; };
+		B0EA23341779363E001BA93E /* GASSDrawTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSDrawTools.m; sourceTree = "<group>"; };
+		B0EA23361779674B001BA93E /* GASSCalloutViewPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSCalloutViewPanel.h; sourceTree = "<group>"; };
+		B0EA23371779674B001BA93E /* GASSCalloutViewPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSCalloutViewPanel.m; sourceTree = "<group>"; };
+		B0EA2339177967C1001BA93E /* e.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = e.jpg; sourceTree = "<group>"; };
+		B0EA233B177967D2001BA93E /* calloutBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calloutBackground.png; sourceTree = "<group>"; };
+		B0EA233D177972D2001BA93E /* calloutBackground02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calloutBackground02.png; sourceTree = "<group>"; };
+		B0EA233F1779751F001BA93E /* GASSCalloutViewPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASSCalloutViewPanelController.h; sourceTree = "<group>"; };
+		B0EA23401779751F001BA93E /* GASSCalloutViewPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASSCalloutViewPanelController.m; sourceTree = "<group>"; };
+		B0EA23421779774C001BA93E /* GASSCalloutViewPanelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GASSCalloutViewPanelController.xib; sourceTree = "<group>"; };
+		B0EA23441779818B001BA93E /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		B0EA23451779818C001BA93E /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		B0EA23461779818C001BA93E /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		B0EA23471779818D001BA93E /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		B0EA23481779818E001BA93E /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		B0EA23491779818F001BA93E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		B0EA234A1779818F001BA93E /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0DEC76E1777D5AC00AD8709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DEC7751777D5AC00AD8709 /* UIKit.framework in Frameworks */,
+				B0DEC7771777D5AC00AD8709 /* Foundation.framework in Frameworks */,
+				B0DEC7791777D5AC00AD8709 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0AB567F1908B8B60065E44A /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB56801908B8C60065E44A /* ZZFile.h */,
+				B0AB56811908B8C60065E44A /* ZZFile.m */,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		B0DEC7681777D5AC00AD8709 = {
+			isa = PBXGroup;
+			children = (
+				B0DEC77A1777D5AC00AD8709 /* GASSNotepad */,
+				B0DEC7731777D5AC00AD8709 /* Frameworks */,
+				B0DEC7721777D5AC00AD8709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0DEC7721777D5AC00AD8709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEC7711777D5AC00AD8709 /* GASSNotepad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DEC7731777D5AC00AD8709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEC7741777D5AC00AD8709 /* UIKit.framework */,
+				B0DEC7761777D5AC00AD8709 /* Foundation.framework */,
+				B0DEC7781777D5AC00AD8709 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0DEC77A1777D5AC00AD8709 /* GASSNotepad */ = {
+			isa = PBXGroup;
+			children = (
+				B0AB567F1908B8B60065E44A /* utilities */,
+				B0E15306177ABB970089FC0F /* GASSConstants.h */,
+				B0EA23521779819A001BA93E /* image */,
+				B0DEC7831777D5AC00AD8709 /* GASSAppDelegate.h */,
+				B0DEC7841777D5AC00AD8709 /* GASSAppDelegate.m */,
+				B01EFCB21777EDB700D1CEF2 /* GASSNotepadView.h */,
+				B01EFCB31777EDB700D1CEF2 /* GASSNotepadView.m */,
+				B0EA23331779363E001BA93E /* GASSDrawTools.h */,
+				B0EA23341779363E001BA93E /* GASSDrawTools.m */,
+				B0727E631777E05900A97287 /* GASSNotepadViewController.h */,
+				B0727E641777E05900A97287 /* GASSNotepadViewController.m */,
+				B0727E651777E05900A97287 /* GASSNotepadViewController.xib */,
+				B0EA23361779674B001BA93E /* GASSCalloutViewPanel.h */,
+				B0EA23371779674B001BA93E /* GASSCalloutViewPanel.m */,
+				B0EA233F1779751F001BA93E /* GASSCalloutViewPanelController.h */,
+				B0EA23401779751F001BA93E /* GASSCalloutViewPanelController.m */,
+				B0EA23421779774C001BA93E /* GASSCalloutViewPanelController.xib */,
+				B0DEC77B1777D5AC00AD8709 /* Supporting Files */,
+			);
+			path = GASSNotepad;
+			sourceTree = "<group>";
+		};
+		B0DEC77B1777D5AC00AD8709 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEC77C1777D5AC00AD8709 /* GASSNotepad-Info.plist */,
+				B0DEC77D1777D5AC00AD8709 /* InfoPlist.strings */,
+				B0DEC7801777D5AC00AD8709 /* main.m */,
+				B0DEC7821777D5AC00AD8709 /* GASSNotepad-Prefix.pch */,
+				B0DEC7861777D5AC00AD8709 /* Default.png */,
+				B0DEC7881777D5AC00AD8709 /* Default@2x.png */,
+				B0DEC78A1777D5AC00AD8709 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0EA23521779819A001BA93E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B0EA233B177967D2001BA93E /* calloutBackground.png */,
+				B0EA233D177972D2001BA93E /* calloutBackground02.png */,
+				B0EA23441779818B001BA93E /* eraser.png */,
+				B0EA23451779818C001BA93E /* blue.png */,
+				B0EA23461779818C001BA93E /* clear.png */,
+				B0EA23471779818D001BA93E /* green.png */,
+				B0EA23481779818E001BA93E /* pink.png */,
+				B0EA23491779818F001BA93E /* red.png */,
+				B0EA234A1779818F001BA93E /* yellow.png */,
+				B0EA2339177967C1001BA93E /* e.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0DEC7701777D5AC00AD8709 /* GASSNotepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0DEC7941777D5AC00AD8709 /* Build configuration list for PBXNativeTarget "GASSNotepad" */;
+			buildPhases = (
+				B0DEC76D1777D5AC00AD8709 /* Sources */,
+				B0DEC76E1777D5AC00AD8709 /* Frameworks */,
+				B0DEC76F1777D5AC00AD8709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GASSNotepad;
+			productName = GASSNotepad;
+			productReference = B0DEC7711777D5AC00AD8709 /* GASSNotepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0DEC7691777D5AC00AD8709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GASS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = com.test;
+			};
+			buildConfigurationList = B0DEC76C1777D5AC00AD8709 /* Build configuration list for PBXProject "GASSNotepad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0DEC7681777D5AC00AD8709;
+			productRefGroup = B0DEC7721777D5AC00AD8709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0DEC7701777D5AC00AD8709 /* GASSNotepad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0DEC76F1777D5AC00AD8709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DEC77F1777D5AC00AD8709 /* InfoPlist.strings in Resources */,
+				B0DEC7871777D5AC00AD8709 /* Default.png in Resources */,
+				B0DEC7891777D5AC00AD8709 /* Default@2x.png in Resources */,
+				B0DEC78B1777D5AC00AD8709 /* Default-568h@2x.png in Resources */,
+				B0727E671777E05900A97287 /* GASSNotepadViewController.xib in Resources */,
+				B0EA233A177967C1001BA93E /* e.jpg in Resources */,
+				B0EA233C177967D2001BA93E /* calloutBackground.png in Resources */,
+				B0EA233E177972D3001BA93E /* calloutBackground02.png in Resources */,
+				B0EA23431779774C001BA93E /* GASSCalloutViewPanelController.xib in Resources */,
+				B0EA234B17798190001BA93E /* eraser.png in Resources */,
+				B0EA234C17798190001BA93E /* blue.png in Resources */,
+				B0EA234D17798190001BA93E /* clear.png in Resources */,
+				B0EA234E17798190001BA93E /* green.png in Resources */,
+				B0EA234F17798190001BA93E /* pink.png in Resources */,
+				B0EA235017798190001BA93E /* red.png in Resources */,
+				B0EA235117798190001BA93E /* yellow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0DEC76D1777D5AC00AD8709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DEC7811777D5AC00AD8709 /* main.m in Sources */,
+				B0DEC7851777D5AC00AD8709 /* GASSAppDelegate.m in Sources */,
+				B0AB56821908B8C60065E44A /* ZZFile.m in Sources */,
+				B0727E661777E05900A97287 /* GASSNotepadViewController.m in Sources */,
+				B01EFCB41777EDB700D1CEF2 /* GASSNotepadView.m in Sources */,
+				B0EA23351779363E001BA93E /* GASSDrawTools.m in Sources */,
+				B0EA23381779674B001BA93E /* GASSCalloutViewPanel.m in Sources */,
+				B0EA23411779751F001BA93E /* GASSCalloutViewPanelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0DEC77D1777D5AC00AD8709 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0DEC77E1777D5AC00AD8709 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0DEC7921777D5AC00AD8709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: leopard HE (TTR7WD8M8P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4488F2F4-0207-4515-AAC3-BC30F799B493";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B0DEC7931777D5AC00AD8709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: leopard HE (TTR7WD8M8P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "4488F2F4-0207-4515-AAC3-BC30F799B493";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0DEC7951777D5AC00AD8709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GASSNotepad/GASSNotepad-Prefix.pch";
+				INFOPLIST_FILE = "GASSNotepad/GASSNotepad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0DEC7961777D5AC00AD8709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GASSNotepad/GASSNotepad-Prefix.pch";
+				INFOPLIST_FILE = "GASSNotepad/GASSNotepad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0DEC76C1777D5AC00AD8709 /* Build configuration list for PBXProject "GASSNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DEC7921777D5AC00AD8709 /* Debug */,
+				B0DEC7931777D5AC00AD8709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0DEC7941777D5AC00AD8709 /* Build configuration list for PBXNativeTarget "GASSNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DEC7951777D5AC00AD8709 /* Debug */,
+				B0DEC7961777D5AC00AD8709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0DEC7691777D5AC00AD8709 /* Project object */;
+}

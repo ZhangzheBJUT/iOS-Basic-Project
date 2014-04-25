@@ -49,4 +49,11 @@
 + (void) UserDefalutObject:(id)object forKey:(NSString*) key;
 + (id)   UserDefalutObjectForKye:(NSString*) key;
 + (void) Synchronize;
+
+
+
+//Hash File
++ (NSString *)md5HashOfFileAtPath:(NSString *)filePath;
++ (NSString *)sha1HashOfFileAtPath:(NSString *)filePath;
++ (NSString *)sha512HashOfFileAtPath:(NSString *)filePath;
 @end

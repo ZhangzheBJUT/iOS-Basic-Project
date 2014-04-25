@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B04C5EB51909F1C00058850E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04C5EB41909F1C00058850E /* JavaScriptCore.framework */; };
+		B04C5EB71909F1D90058850E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04C5EB61909F1D90058850E /* CoreFoundation.framework */; };
 		B0AB567E1908A63A0065E44A /* copyfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = B0AB567D1908A63A0065E44A /* copyfile.txt */; };
 		B0E72592190753F30028359E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E72591190753F30028359E /* Foundation.framework */; };
 		B0E72594190753F30028359E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E72593190753F30028359E /* CoreGraphics.framework */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B04C5EB41909F1C00058850E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B04C5EB61909F1D90058850E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		B0AB567D1908A63A0065E44A /* copyfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyfile.txt; sourceTree = "<group>"; };
 		B0E7258E190753F10028359E /* ZZFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E72591190753F30028359E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04C5EB71909F1D90058850E /* CoreFoundation.framework in Frameworks */,
+				B04C5EB51909F1C00058850E /* JavaScriptCore.framework in Frameworks */,
 				B0E72594190753F30028359E /* CoreGraphics.framework in Frameworks */,
 				B0E72596190753F30028359E /* UIKit.framework in Frameworks */,
 				B0E72592190753F30028359E /* Foundation.framework in Frameworks */,
@@ -110,6 +116,8 @@
 		B0E72590190753F10028359E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B04C5EB61909F1D90058850E /* CoreFoundation.framework */,
+				B04C5EB41909F1C00058850E /* JavaScriptCore.framework */,
 				B0E72591190753F30028359E /* Foundation.framework */,
 				B0E72593190753F30028359E /* CoreGraphics.framework */,
 				B0E72595190753F30028359E /* UIKit.framework */,
